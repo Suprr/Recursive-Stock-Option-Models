@@ -1,0 +1,9 @@
+﻿American Put Option
+a. n = 10 TIME TAKEN:  0.0 ms (near-instant process time)
+b. n = 500 TIME TAKEN:  35 ms
+c. Time complexity: T(n) = Θ(2^n) This algorithm involves the creation and traversal of a full binary tree which is roughly 2^n nodes = roughly 2^n calculations. This algorithm is only so fast because of the implementation of LRU-Caching done on recursive function inputs and outputs.
+
+Asian Call Option
+a. n = 10 TIME TAKEN: 0.0 ms (near-instant process time)
+b. n = 500 TIME TAKEN: not within our lifetime... It's hard to get a good model with the small amount of timesteps I am able to test. Going past n =  28 will crash a users system as this requires the creation of 268435456 nodes in the stack.
+c. Time complexity: T(n) = Θ(2^n) This algorithm involves the creation and traversal of a full binary tree which is roughly 2^n nodes = roughly 2^n calculations. This algorithm is only so fast because of the implementation of LRU-Caching done on recursive function inputs and outputs. However, compared to the American option, the asian option requires much more computation with my method resulting in it being only able to handle up to n=30 without crashing the users system. The LRU caching works well but not when a lot of internal computations still have to be done. 
