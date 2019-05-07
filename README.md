@@ -15,4 +15,4 @@ Input file must follow format as seen in inputs.txt:
 
 Note: each field is tab-separated
 
-Note: To test multiple inputs: press enter (add a new line character) at the end of each line of input as seen in inputs.txt
+Note: to test multiple inputs: press enter (add a new line character) at the end of each line of input as seen in inputs.txt
