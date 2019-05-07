@@ -13,4 +13,5 @@ Input file must follow format as seen in inputs.txt:
 
 ```risk-free interest rate,time in years,timesteps,sigma (volatility of returns),spot price,strike price```
 
+Note: each field is tab-separated
 Note: To test multiple inputs: press enter (add a new line character) at the end of each line of input as seen in inputs.txt
